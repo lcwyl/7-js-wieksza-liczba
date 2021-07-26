@@ -1,17 +1,18 @@
 let num1 = 2;
 let num2 = 5;
     
-function zwrocWiekszaLiczbe(x = num1 ,y = num2){ 
+function zwrocWiekszaLiczbe(x ,y){ 
     
  if(x > y){
-    return num1;
+    return x;
  }
  else{
-    return num2;
+    return y;
  }
     
 }
-console.log(zwrocWiekszaLiczbe());
+console.log(zwrocWiekszaLiczbe(num1,num2));
+console.log(zwrocWiekszaLiczbe(3,44));
 
 
 
