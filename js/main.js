@@ -12,7 +12,7 @@ function zwrocWiekszaLiczbe(x ,y){
     
 }
 console.log(zwrocWiekszaLiczbe(num1,num2));
-console.log(zwrocWiekszaLiczbe(3,44));
+
 
 
 
